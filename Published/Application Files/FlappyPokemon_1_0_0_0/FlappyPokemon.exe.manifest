@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FlappyPokemon.exe" version="1.0.0.0" publicKeyToken="b1eb6f424805ab82" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Magikarp Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlappyPokemon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FlappyPokemon.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlappyPokemon.exe" size="237552">
+      <assemblyIdentity name="FlappyPokemon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eFJu2/WhsMv5WMRX9eyYm5AkctES8ElfG9e8aNzlkk4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FlappyPokemon.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magikarp Icon.ico" size="44579">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ckFAjPn4vK7YelpCE3bb3/WgGTRqOWGDusxnZegw43c=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-74J889G\Shoumik" issuerKeyHash="594295cfb5e340ec2fd57fe04ca95b0b5faeed48" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C+Pva3s1AEaz+SgEvkYNwCVmbVFAaxtZx7MxNB2GA+o=</DigestValue></Reference></SignedInfo><SignatureValue>GtG46XgIeP30BKPh8++eYpDo5lpF363ZimWx69YNlW2R1OW06Fw45SGScE/F8CcX+5T6Bw/Gm3Sm0CNi4D4WjLrQR/5Bp9rLw1PMFKgAOUHiwHBzfn2g+iIYxaUKpE4XABXROu+N62G6EMDELXl/bsqs1qaaXKn3Z65nOwRKlq0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uIM9md4t7T0MnQXe8unqPp6kYyADtUcj4mDWiKfqaoY0GKMU/eg4AcDPKrNG1FjUOehCbAn66T1BohlYlZPz8mnN/q/TC6vVgmQC/kgX5G2YTX1l/IXlynNnZ/lCZE4+fmSaqEDu3ak8oiPpHoMBzpbsnYfzkc0vi9mrDNb5U/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ea03861d3431b3c7591b6b40516d6625c00d46be0428f9b34600357b6befe30b" Description="" Url=""><as:assemblyIdentity name="FlappyPokemon.exe" version="1.0.0.0" publicKeyToken="b1eb6f424805ab82" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-74J889G\Shoumik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OlZl5b8j1AYLJMbUBJjvPCioCOMsY//V//HlsKqKXCw=</DigestValue></Reference></SignedInfo><SignatureValue>gd3F4/DwuQw8TA4/Gmreec/NCGilplci5COmrlqUhpzJakpXzg3+QASkvvmVfjaA7XYBgipZg0y4IYF/U8c6O4+bkjaZ9B/dWMk+mxtyHwKUl4rF5v7l9FWQ73vAa6efmwSt5u1NGi1h31bvFGBR8YxWPhKNJVXWi4VVNSwCBBM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uIM9md4t7T0MnQXe8unqPp6kYyADtUcj4mDWiKfqaoY0GKMU/eg4AcDPKrNG1FjUOehCbAn66T1BohlYlZPz8mnN/q/TC6vVgmQC/kgX5G2YTX1l/IXlynNnZ/lCZE4+fmSaqEDu3ak8oiPpHoMBzpbsnYfzkc0vi9mrDNb5U/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQRcyWDscjVJlOQ8bnCZ6qSTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtADcANABKADgAOAA5AEcAXABTAGgAbwB1AG0AaQBrMB4XDTIzMDcyMzE0NDc0MFoXDTI0MDcyMjIwNDc0MFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQA3ADQASgA4ADgAOQBHAFwAUwBoAG8AdQBtAGkAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuIM9md4t7T0MnQXe8unqPp6kYyADtUcj4mDWiKfqaoY0GKMU/eg4AcDPKrNG1FjUOehCbAn66T1BohlYlZPz8mnN/q/TC6vVgmQC/kgX5G2YTX1l/IXlynNnZ/lCZE4+fmSaqEDu3ak8oiPpHoMBzpbsnYfzkc0vi9mrDNb5U/0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBvAky32raWVm5KkCUGZqc5Kv+HaMJ7Pn6rG9zslKDyg/Nd8rTfo+WtfQhSavieTBiySM38dIr2kQhjD4J6KApfJrDzlYBGLam1BlhSOZtFt9JeriVg5eRaKVGF9BmoFmyA23iVs/lwSPmJEh4wDPsdraU192E88xEbg/1+dE36iA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
